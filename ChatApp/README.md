@@ -1,16 +1,64 @@
-# React + Vite
+# ChatApp 💬
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A real-time chat application built with **React.js** and **Firebase**.
 
-Currently, two official plugins are available:
+## 🚀 About the Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+ChatApp is a modern chat application that allows users to create an account, log in, communicate with other users, and manage their profiles.
 
-## React Compiler
+The project was built to practice React.js, Firebase Authentication, Firestore, and Firebase Storage while developing a real-world web application.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+* User Registration and Login
+* Firebase Authentication
+* Real-time chat functionality
+* User profile management
+* Update username and bio
+* Password reset functionality
+* Online user/chat data synchronization
+* Image upload support
+* Responsive and user-friendly interface
+* Real-time data updates using Firebase Firestore
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+
+* React.js
+* JavaScript
+* Firebase Authentication
+* Firebase Firestore
+* Firebase Storage
+* HTML5
+* CSS3
+* Vite
+
+## 📚 What I Learned
+
+While building this project, I practiced:
+
+* Building reusable React components
+* Managing state in React
+* Working with Firebase Authentication
+* Working with Firestore
+* Handling real-time data
+* Managing user profiles
+* Working with environment variables
+* Structuring a React project
+* Connecting a frontend application with backend services
+
+## 🔮 Future Improvements
+
+* Group chat functionality
+* Message reactions
+* Message deletion and editing
+* Typing indicators
+* Read receipts
+* Better mobile responsiveness
+* Push notifications
+* Improved UI/UX
+
+## 👨‍💻 Author
+
+**Hardik Bhadra**
+
+This project was created as part of my learning journey in React.js and full-stack web development.
