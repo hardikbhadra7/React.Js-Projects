@@ -1,0 +1,59 @@
+:root {
+  --color-bg-primary: #0F172A;
+  --color-bg-secondary: #172554;
+
+  --color-sidebar-bg: #16213E;
+  --color-panel-bg: #16213E;
+
+  --color-surface: #1D2B53;
+  --color-surface-alt: #233766;
+  --color-surface-hover: #2D4378;
+
+  --color-message-bg: #273C75;
+
+  --color-accent: #7C3AED;
+  --color-accent-secondary: #8B5CF6;
+  --color-accent-blue: #38BDF8;
+  --color-online: #22D3EE;
+
+  --color-text-primary: #F8FAFC;
+  --color-text-secondary: #CBD5E1;
+  --color-text-muted: #94A3B8;
+
+  --color-border: #334155;
+
+  --shadow-soft: 0 8px 20px rgba(0,0,0,.18);
+  --shadow-elevated: 0 16px 35px rgba(0,0,0,.28);
+
+  --radius-md: 12px;
+  --radius-lg: 18px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', 'Poppins', sans-serif;
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.dot{
+    width: 10px !important;
+    height: 10px !important;
+    margin-left: 6px;
+    object-fit: contain;
+    vertical-align: middle;
+}
+
+@media (max-width: 900px) {
+  .hidden {
+    display: none;
+  }
+}
